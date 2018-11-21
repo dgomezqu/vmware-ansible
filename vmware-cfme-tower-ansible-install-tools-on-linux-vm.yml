@@ -6,4 +6,4 @@
   - name: install "{{ tool }}"
     yum:
       name: "{{ tool }}"
-state: latest
+      state: latest
